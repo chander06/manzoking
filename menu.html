@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menù Manzo King — Carne alla Brace, Pasta, Pizza ad Aprilia</title>
+<meta name="description" content="Il menù completo di Manzo King: antipasti, primi della tradizione, carni alla brace, pizze artigianali, dolci. Tutti i prezzi e le specialità.">
+<link rel="canonical" href="https://www.manzoking.it/menu">
+<meta property="og:title" content="Menù Manzo King — Braceria & Pizzeria">
+<meta property="og:description" content="Antipasti, primi, brace, pizze, dolci. Il menù completo della braceria di Campoleone.">
+<meta property="og:url" content="https://www.manzoking.it/menu">
+<meta property="og:image" content="https://images.unsplash.com/photo-1558030006-450675393462?w=1200">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Menu",
+  "name": "Menù Manzo King",
+  "hasMenuSection": [
+    { "@type": "MenuSection", "name": "Antipasti" },
+    { "@type": "MenuSection", "name": "Primi" },
+    { "@type": "MenuSection", "name": "Secondi di Carne alla Brace" },
+    { "@type": "MenuSection", "name": "Pizze" },
+    { "@type": "MenuSection", "name": "Dolci" }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.manzoking.it/" },
+    { "@type": "ListItem", "position": 2, "name": "Menù", "item": "https://www.manzoking.it/menu" }
+  ]
+}
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-screen-label="Menu">
+
+<!-- TOPBAR -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <div class="topbar__left">
+      <span class="topbar__pill">APERTO 7/7</span>
+      <span>📍 Via del Tufello, 199 — Campoleone, Aprilia</span>
+    </div>
+    <div class="topbar__right">
+      <a href="tel:+393922737049">📞 +39 392 273 7049</a>
+      <a href="https://wa.me/+393922737049" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</div>
+
+<!-- NAV -->
+<header class="nav">
+  <div class="container nav__inner">
+    <a href="index.html" class="brand"><div class="brand__mark">MK</div><div class="brand__wordmark">Manzo King<span>BRACERIA · PIZZERIA</span></div></a>
+    <nav class="nav__menu">
+      <a class="nav__link" href="index.html">Home</a>
+      <a class="nav__link" href="chi-siamo.html">Chi Siamo</a>
+      <a class="nav__link is-active" href="menu.html">Menù</a>
+      <a class="nav__link" href="la-brace.html">La Brace</a>
+      <a class="nav__link" href="pizza.html">Pizza</a>
+      <a class="nav__link" href="consegna.html">Consegna</a>
+      <a class="nav__link" href="contatti.html">Contatti</a>
+    </nav>
+    <div class="nav__ctas">
+      <button class="btn btn--ghost btn--sm" data-open="booking">Prenota</button>
+      <a class="btn btn--primary btn--sm" href="https://www.justeat.it/restaurants-manzo-king-campoleone/menu" target="_blank" rel="noopener">Ordina Online</a>
+      <button class="nav__burger" aria-label="Apri menu">☰</button>
+    </div>
+  </div>
+</header>
+
+<!-- MENU HERO -->
+<section class="menu-hero">
+  <div class="container">
+    <div class="eyebrow" style="justify-content:center;">Il Nostro Menù</div>
+    <h1>Dalla Brace al Forno.<br>Tutto, in un solo posto.</h1>
+    <p>Antipasti di crudi, primi della tradizione, carni alla brace selezionate, pizze artigianali e dolci della casa. Tutti i prezzi sono in Euro, IVA inclusa.</p>
+    <div class="flex-cta" style="justify-content:center;">
+      <button class="btn btn--primary" data-open="booking">Prenota un Tavolo</button>
+      <a class="btn btn--ghost" href="https://www.justeat.it/restaurants-manzo-king-campoleone/menu" target="_blank" rel="noopener">Ordina Online</a>
+    </div>
+  </div>
+</section>
+
+<!-- MENU NAV -->
+<div class="menu-nav">
+  <div class="container">
+    <div class="menu-nav__inner">
+      <a class="menu-nav__link" href="#antipasti">Antipasti</a>
+      <a class="menu-nav__link" href="#primi">Primi</a>
+      <a class="menu-nav__link" href="#secondi">Secondi di Carne</a>
+      <a class="menu-nav__link" href="#brace">Brace ⭐</a>
+      <a class="menu-nav__link" href="#panini">Panini</a>
+      <a class="menu-nav__link" href="#contorni">Contorni</a>
+      <a class="menu-nav__link" href="#pizze-rosse">Pizze Rosse</a>
+      <a class="menu-nav__link" href="#pizze-bianche">Pizze Bianche</a>
+      <a class="menu-nav__link" href="#pizze-speciali">Pizze Speciali</a>
+      <a class="menu-nav__link" href="#focacce">Focacce</a>
+      <a class="menu-nav__link" href="#fritti">Fritti</a>
+      <a class="menu-nav__link" href="#dolci">Dolci</a>
+      <a class="menu-nav__link" href="#bevande">Bevande</a>
+    </div>
+  </div>
+</div>
+
+<!-- ANTIPASTI -->
+<section class="menu-cat" id="antipasti">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Antipasti</h2>
+      <p class="menu-cat__sub">Per iniziare con carattere: crudi, salumi, formaggi e specialità della casa.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Misto di Crudi di Carne</h4><p class="menu-item__desc">Per 1 persona</p></div><span class="menu-item__price">€18</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Misto di Crudi di Carne</h4><p class="menu-item__desc">Per 2 persone</p></div><span class="menu-item__price">€30</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tagliere Misto di Salumi e Formaggi</h4><p class="menu-item__desc">Selezione di salumi e formaggi del territorio</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Prosciutto e Mozzarella di Bufala</h4><p class="menu-item__desc">Crudo dolce e bufala campana</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Burrata con Pesto e Pomodoro Pachino</h4><p class="menu-item__desc">Pugliese, pesto fresco al basilico</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Lumache di Zucchine con Provola e Speck</h4><p class="menu-item__desc">Gratinate al forno, croccanti</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Carpaccio di Manzo</h4><p class="menu-item__desc">Rucola, scaglie di grana, limone</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tartare di Manzo</h4><p class="menu-item__desc">Tagliata al coltello, condita al momento</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Bocconcini di Carne all'Arancia</h4><p class="menu-item__desc">Salsa di tuorlo, zucchero di canna, arancia</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Melanzane alla Parmigiana</h4><p class="menu-item__desc">Monodose, ricetta della casa</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Canapè di Formaggi con Pere e Miele</h4><p class="menu-item__desc">Formaggi misti, pere fresche, miele</p></div><span class="menu-item__price">€12</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PRIMI -->
+<section class="menu-cat" id="primi">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Primi</h2>
+      <p class="menu-cat__sub">La pasta della tradizione laziale, mantecata al momento.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Risotto ai Funghi Porcini</h4><p class="menu-item__desc">Porcini freschi, mantecato al parmigiano</p></div><span class="menu-item__price">€15</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tagliatelle alla Carbonara con Tartufata</h4><p class="menu-item__desc">Guanciale, uovo, pecorino, tartufo</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tonnarelli Cacio e Pepe</h4><p class="menu-item__desc">Pecorino romano DOP, pepe nero</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Ravioli di Ricotta con Burro e Salvia</h4><p class="menu-item__desc">Pasta fresca, ripieno di ricotta</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Rigatoni alla Gricia</h4><p class="menu-item__desc">Guanciale croccante, pecorino, pepe</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Spaghetti Aglio, Olio e Peperoncino</h4><p class="menu-item__desc">Con parmigiano dei poveri</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Paccheri Broccoli e Salsiccia</h4><p class="menu-item__desc">Broccoli romaneschi, salsiccia di maiale</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Mezze Maniche Carbonara</h4><p class="menu-item__desc">La classica romana</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Risotto allo Zafferano con Guanciale</h4><p class="menu-item__desc">Zafferano e guanciale croccante</p></div><span class="menu-item__price">€15</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Spaghetti Amatriciana</h4><p class="menu-item__desc">Pomodoro, guanciale, pecorino</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Penne alla Boscaiola</h4><p class="menu-item__desc">Funghi, pomodoro, panna, salsiccia</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Gnocchetti Gorgonzola, Radicchio e Noci</h4><p class="menu-item__desc">Mascarpone, noci, guanciale croccante</p></div><span class="menu-item__price">€15</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Strozzapreti Porcini e Tartufo</h4><p class="menu-item__desc">Funghi porcini freschi e tartufo</p></div><span class="menu-item__price">€13</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- SECONDI CARNE -->
+<section class="menu-cat" id="secondi">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Secondi di Carne</h2>
+      <p class="menu-cat__sub">Filetti, scaloppine, arrosti. La cucina classica della carne.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Straccetti di Manzo</h4><p class="menu-item__desc">Rucola, pomodoro pachino e grana</p></div><span class="menu-item__price">€20</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Filetto al Pepe Verde</h4><p class="menu-item__desc">Cottura a scelta, salsa al pepe verde</p></div><span class="menu-item__price">€27</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Filetto ai Funghi Porcini</h4><p class="menu-item__desc">Porcini freschi di stagione</p></div><span class="menu-item__price">€27</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Filetto al Gorgonzola</h4><p class="menu-item__desc">Salsa cremosa al gorgonzola DOP</p></div><span class="menu-item__price">€27</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Scaloppina di Vitella</h4><p class="menu-item__desc">Marsala / Limone / Funghi</p></div><span class="menu-item__price">€20</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tagliata di Pollo</h4><p class="menu-item__desc">Barbecue · Limone e Rosmarino · Teriyaki</p></div><span class="menu-item__price range">€20–22</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Arrosto di Maiale Porchettato</h4><p class="menu-item__desc">Pancetta, scamorza, senape, crema di pistacchio, salsa agrodolce</p></div><span class="menu-item__price">€25</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- BRACE HERO SECTION -->
+<section class="menu-cat menu-cat--hero" id="brace">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title" style="color:var(--ink);">Secondi alla Brace ⭐</h2>
+      <p class="menu-cat__sub">La sezione hero della casa. Tagli nazionali e internazionali cotti su brace artigianale.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Tagliata con Rucola, Pachino e Grana</h4><p class="menu-item__desc">Manzo nazionale, scaglie di grana</p></div><span class="menu-item__price">€22</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tagliata con Glassa di Aceto Balsamico</h4><p class="menu-item__desc">Riduzione di balsamico di Modena</p></div><span class="menu-item__price">€22</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tagliata con Funghi Porcini</h4><p class="menu-item__desc">Porcini freschi saltati</p></div><span class="menu-item__price">€24</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tagliata Olio e Sale</h4><p class="menu-item__desc">Per esaltare il sapore della carne</p></div><span class="menu-item__price">€20</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Filetto alla Brace</h4><p class="menu-item__desc">Cottura su brace viva</p></div><span class="menu-item__price">€24</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Bistecca senza Osso</h4><p class="menu-item__desc">Taglio nazionale</p></div><span class="menu-item__price">€20</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Bistecca con Osso Nazionale 500g <span class="badge">★</span></h4><p class="menu-item__desc">Carne italiana selezionata</p></div><span class="menu-item__price">€35</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Fiorentina Nazionale 700g <span class="badge">★</span></h4><p class="menu-item__desc">La regina della casa. Frollatura artigianale</p></div><span class="menu-item__price">€45</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Bistecca con Osso 1kg Irlanda <span class="badge">★</span></h4><p class="menu-item__desc">Costata irlandese, condivisibile</p></div><span class="menu-item__price">€60</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Bistecca con Osso 1kg Danimarca <span class="badge">★</span></h4><p class="menu-item__desc">Carne danese, marezzatura intensa</p></div><span class="menu-item__price">€60</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tris di Carne 1 Persona</h4><p class="menu-item__desc">Tre tagli a scelta dello chef</p></div><span class="menu-item__price">€30</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tris di Carne 2 Persone</h4><p class="menu-item__desc">Con contorni inclusi</p></div><span class="menu-item__price">€60</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Suprema di Pollo</h4><p class="menu-item__desc">Petto di pollo alla griglia</p></div><span class="menu-item__price">€16</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Arrosticini Maxi 30g</h4><p class="menu-item__desc">8 pezzi · pecora abruzzese</p></div><span class="menu-item__price">€12</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PANINI -->
+<section class="menu-cat" id="panini">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Panini Gourmet</h2>
+      <p class="menu-cat__sub">Pane artigianale e farciture importanti.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Panino Manzo King</h4><p class="menu-item__desc">Hamburger 250g, bacon, cheddar, insalata, patate, salse</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Panino Chichendo</h4><p class="menu-item__desc">Pollo alla griglia, cheddar, insalata, pomodoro</p></div><span class="menu-item__price">€12</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Panino Vegan</h4><p class="menu-item__desc">Melanzane, zucchine, peperoni, cipolla, patate, salse vegan</p></div><span class="menu-item__price">€12</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTORNI -->
+<section class="menu-cat" id="contorni">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Contorni</h2>
+      <p class="menu-cat__sub">Per accompagnare la brace o un piatto di pasta.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Patate Fritte</h4></div><span class="menu-item__price">€5</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Patate al Forno</h4></div><span class="menu-item__price">€5</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Cicoria Ripassata</h4></div><span class="menu-item__price">€5</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Verdure Grigliate</h4><p class="menu-item__desc">Selezione mista di stagione</p></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Insalata Mista</h4></div><span class="menu-item__price">€5</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Broccoli Romaneschi</h4></div><span class="menu-item__price">€5</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PIZZE ROSSE -->
+<section class="menu-cat" id="pizze-rosse">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Pizze Rosse</h2>
+      <p class="menu-cat__sub">Pomodoro San Marzano, lievitazione 24 ore.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Margherita</h4></div><span class="menu-item__price">€7</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Regina Margherita</h4><p class="menu-item__desc">Fior di latte selezionato</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Margherita Bufala</h4><p class="menu-item__desc">Mozzarella di bufala campana</p></div><span class="menu-item__price">€9</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Diavola</h4><p class="menu-item__desc">Salame piccante</p></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Capricciosa</h4><p class="menu-item__desc">Prosciutto, funghi, carciofi, olive</p></div><span class="menu-item__price">€9</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Napoli</h4><p class="menu-item__desc">Acciughe, capperi, origano</p></div><span class="menu-item__price">€7</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Parmigiana</h4><p class="menu-item__desc">Melanzane, scamorza, basilico</p></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Contadina</h4><p class="menu-item__desc">Salsiccia, friarielli, mozzarella</p></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Boscaiola Rossa</h4><p class="menu-item__desc">Funghi, salsiccia, mozzarella</p></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tonno e Cipolla</h4></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Rossa con Gamberetti</h4></div><span class="menu-item__price">€9</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Rossa</h4><p class="menu-item__desc">Pomodoro, aglio, origano</p></div><span class="menu-item__price">€6</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PIZZE BIANCHE -->
+<section class="menu-cat" id="pizze-bianche">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Pizze Bianche</h2>
+      <p class="menu-cat__sub">Senza pomodoro, con farciture creative.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">4 Formaggi</h4><p class="menu-item__desc">Mozzarella, gorgonzola, scamorza, parmigiano</p></div><span class="menu-item__price">€9</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">San Daniele</h4><p class="menu-item__desc">Mozzarella, prosciutto crudo DOP</p></div><span class="menu-item__price">€9</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Fiori e Alici</h4><p class="menu-item__desc">Fiori di zucca e alici del Cantabrico</p></div><span class="menu-item__price">€9</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Gorgonzola e Radicchio</h4></div><span class="menu-item__price">€9</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Pachino Special</h4><p class="menu-item__desc">Pomodorini, mozzarella, basilico</p></div><span class="menu-item__price">€9</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Boscaiola Bianca</h4><p class="menu-item__desc">Funghi, salsiccia, panna</p></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tedesca</h4><p class="menu-item__desc">Würstel, patate, mozzarella</p></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Ortolana</h4><p class="menu-item__desc">Verdure grigliate, mozzarella</p></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Crostino</h4><p class="menu-item__desc">Mozzarella, alici, origano</p></div><span class="menu-item__price">€7</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PIZZE SPECIALI -->
+<section class="menu-cat" id="pizze-speciali">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Pizze Speciali</h2>
+      <p class="menu-cat__sub">Tartufo, porcini, ingredienti d'eccellenza. Per chi vuole di più.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Sapori del Bosco</h4><p class="menu-item__desc">Funghi porcini, mozzarella, prezzemolo</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Nord Sud</h4><p class="menu-item__desc">Bufala, crudo, friarielli, scamorza</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tartufona</h4><p class="menu-item__desc">Crema di tartufo, mozzarella, funghi</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Tartufona Special <span class="badge">★</span></h4><p class="menu-item__desc">Tartufo nero, porcini, scaglie di parmigiano</p></div><span class="menu-item__price">€10</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FOCACCE -->
+<section class="menu-cat" id="focacce">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Focacce</h2>
+      <p class="menu-cat__sub">Impasto fragrante, condimenti freschi.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Focaccia</h4><p class="menu-item__desc">Olio EVO, rosmarino, sale grosso</p></div><span class="menu-item__price">€6</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Focaccia con Rucola, Pachino e Grana</h4></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Focaccia con Prosciutto Crudo</h4></div><span class="menu-item__price">€8</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Focaccia con Bresaola, Rucola, Pachino e Grana</h4></div><span class="menu-item__price">€10</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FRITTI -->
+<section class="menu-cat" id="fritti">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Fritti</h2>
+      <p class="menu-cat__sub">Per iniziare o accompagnare la pizza.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Fritto Misto</h4><p class="menu-item__desc">Selezione di fritti della casa</p></div><span class="menu-item__price">€10</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Fiore di Zucca</h4><p class="menu-item__desc">Pastella leggera, ripieno di mozzarella e alici</p></div><span class="menu-item__price">€2</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Olive all'Ascolana (5 pz)</h4></div><span class="menu-item__price">€3,50</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Supplì</h4><p class="menu-item__desc">Riso, ragù, mozzarella filante</p></div><span class="menu-item__price">€1,50</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Crocchette (5 pz)</h4></div><span class="menu-item__price">€3,50</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- DOLCI -->
+<section class="menu-cat" id="dolci">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Dolci</h2>
+      <p class="menu-cat__sub">Fatti in casa.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Tiramisù Classico</h4><p class="menu-item__desc">Ricetta tradizionale, mascarpone montato</p></div><span class="menu-item__price">€6</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Panna Cotta</h4><p class="menu-item__desc">Frutti di bosco · Pistacchio · Cioccolato</p></div><span class="menu-item__price">€6</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Cheesecake</h4><p class="menu-item__desc">Nutella · Frutti di Bosco</p></div><span class="menu-item__price">€6</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- BEVANDE -->
+<section class="menu-cat" id="bevande" style="border-bottom:none;">
+  <div class="container">
+    <div class="menu-cat__head">
+      <h2 class="menu-cat__title">Bevande & Birre</h2>
+      <p class="menu-cat__sub">Carta vini disponibile in sala.</p>
+    </div>
+    <div class="menu-list">
+      <div class="menu-item"><div><h4 class="menu-item__name">Acqua Naturale / Frizzante 1L</h4></div><span class="menu-item__price">€2,50</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Bibita 1L</h4></div><span class="menu-item__price">€5</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Bibite in Lattina</h4></div><span class="menu-item__price">€3</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Birra alla Spina 33cl</h4></div><span class="menu-item__price">€3</span></div>
+      <div class="menu-item"><div><h4 class="menu-item__name">Birra alla Spina 66cl</h4></div><span class="menu-item__price">€5</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- DELIVERY BAND -->
+<section class="delivery-band">
+  <div class="container reveal">
+    <div class="eyebrow" style="justify-content:center;">Ordina Online</div>
+    <h2>Tutto il Menù, a Casa Tua.</h2>
+    <p>Pizze, primi e brace consegnati direttamente. Spesa media €18 a persona.</p>
+    <div class="flex-cta" style="justify-content:center;">
+      <a class="btn btn--primary btn--lg" href="https://www.justeat.it/restaurants-manzo-king-campoleone/menu" target="_blank" rel="noopener">Ordina su JustEat</a>
+      <button class="btn btn--ghost btn--lg" data-open="booking">Prenota un Tavolo</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER (compatto, riusato) -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <a href="index.html" class="brand"><div class="brand__mark">MK</div><div class="brand__wordmark">Manzo King<span>BRACERIA · PIZZERIA</span></div></a>
+        <p style="font-size:13px;margin-top:18px;">Braceria, pizzeria e ristorante a Campoleone, Aprilia. Carni pregiate, pizze artigianali, ricette della tradizione italiana.</p>
+        <div class="footer__socials" style="margin-top:18px;">
+          <a class="footer__social" href="https://facebook.com/ManzoKingCampoleone" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+          <a class="footer__social" href="https://wa.me/+393922737049" target="_blank" rel="noopener" aria-label="WhatsApp">W</a>
+          <a class="footer__social" href="tel:+393922737049" aria-label="Telefono">☎</a>
+        </div>
+      </div>
+      <div><h4>Esplora</h4><ul>
+        <li><a href="chi-siamo.html">Chi Siamo</a></li>
+        <li><a href="menu.html">Il Menù</a></li>
+        <li><a href="la-brace.html">La Brace</a></li>
+        <li><a href="pizza.html">Pizza</a></li>
+        <li><a href="consegna.html">Consegna</a></li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul></div>
+      <div><h4>Orari</h4><ul>
+        <li>Lun–Dom</li>
+        <li><strong style="color:var(--ink);">12:00–15:00</strong></li>
+        <li><strong style="color:var(--ink);">19:00–23:00</strong></li>
+        <li style="margin-top:14px;">Aperto 7/7</li>
+      </ul></div>
+      <div><h4>Contatti</h4><ul>
+        <li>📍 Via del Tufello, 199<br>Campoleone, Aprilia (LT) 04011</li>
+        <li><a href="tel:+393922737049">📞 +39 392 273 7049</a></li>
+        <li><a href="tel:+393773243363">📞 +39 377 324 3363</a></li>
+        <li><a href="https://wa.me/+393922737049">💬 WhatsApp</a></li>
+      </ul></div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Manzo King — P.IVA 00000000000. Tutti i diritti riservati.</span>
+      <span><a href="#">Privacy</a> · <a href="#">Cookie</a></span>
+    </div>
+  </div>
+</footer>
+
+<a class="fab-wa" href="https://wa.me/+393922737049" target="_blank" rel="noopener" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24" fill="white"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-.9-.3-.1-.5-.1-.7.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.8-.7-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.7-1-2.3-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.1.2 2.1 3.3 5.2 4.6.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.2-.3-.3-.6-.4M12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.3c1.4.8 3 1.3 4.7 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2"/></svg>
+</a>
+
+<a class="mobile-order-bar" href="https://www.justeat.it/restaurants-manzo-king-campoleone/menu" target="_blank" rel="noopener">🛵 Ordina Online su JustEat</a>
+
+<div class="cookies" id="cookies"><h4>🍪 Cookie</h4><p>Utilizziamo cookie tecnici e di profilazione. Continuando accetti la nostra Privacy Policy.</p><div class="cookies__actions"><button class="btn btn--primary btn--sm" data-cookie="all">Accetta</button><button class="btn btn--ghost btn--sm" data-cookie="essential">Essenziali</button></div></div>
+
+<div class="modal" id="booking-modal">
+  <div class="modal__card">
+    <button class="modal__close" data-close>×</button>
+    <div class="eyebrow">Prenota Online</div>
+    <h3>Riserva il tuo Tavolo</h3>
+    <p class="modal__sub">Ti contatteremo entro 1 ora per conferma.</p>
+    <form id="booking-form">
+      <div class="form-grid">
+        <div class="field"><label>Nome e Cognome</label><input name="name" type="text" required></div>
+        <div class="field"><label>Telefono</label><input name="phone" type="tel" required></div>
+        <div class="field"><label>Data</label><input name="date" type="date" required></div>
+        <div class="field"><label>Orario</label><select name="time" required><option value="">Seleziona</option><option>12:30</option><option>13:00</option><option>13:30</option><option>19:30</option><option>20:00</option><option>20:30</option><option>21:00</option><option>21:30</option></select></div>
+        <div class="field"><label>Ospiti</label><select name="guests" required><option value="">—</option><option>1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8+</option></select></div>
+        <div class="field"><label>Email</label><input name="email" type="email"></div>
+        <div class="field full"><label>Note</label><textarea name="notes"></textarea></div>
+      </div>
+      <button class="btn btn--primary btn--lg" style="width:100%;justify-content:center;margin-top:18px;">Conferma</button>
+      <div class="form-msg"></div>
+    </form>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
